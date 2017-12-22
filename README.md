@@ -7,6 +7,6 @@ This project expects Maven and Java installed.
 
 2) Import in your favorite IDE as maven project.
 
-3) Change director to simple-deck-master folder.
+3) Change directory to simple-deck-master folder.
 
 4) Run mvn install or mvn test from command line or from IDE.
