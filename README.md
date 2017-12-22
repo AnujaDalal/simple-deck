@@ -3,7 +3,7 @@ Simple deck project that will shuffle and deal cards. Please refer to DeckTest.j
 
 This project expects Maven and Java installed.
 
-1) Dowmload and extract the project.
+1) Download and extract the project.
 
 2) Import in your favorite IDE as maven project.
 
