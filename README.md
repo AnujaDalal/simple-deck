@@ -9,4 +9,4 @@ This project expects Maven and Java installed.
 
 3) Change director to simple-deck-master folder.
 
-4) Run mvn install or mvn test from command line.
+4) Run mvn install or mvn test from command line or from IDE.
