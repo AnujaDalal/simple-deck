@@ -30,11 +30,11 @@ public class DeckTest
     {
       Card card = deck.deal();      
       assertThat(card, is(notNullValue()));
-      assertThat(deck.size(), is(equalTo(51)));
+      assertThat(deck.size(), is(equalTo(51))); // After dealing 1 card (52 - 1)
       
       Card[] cards = deck.deal(10);
       assertThat(cards.length, is(equalTo(10)));
-      assertThat(deck.size(), is(equalTo(41))); // (52 - 11)
+      assertThat(deck.size(), is(equalTo(41))); // After dealing 11 cards (52 - 11)
     }
     catch (OperationNotSupportedException e)
     {
